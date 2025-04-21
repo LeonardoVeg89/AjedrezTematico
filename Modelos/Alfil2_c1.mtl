@@ -1,12 +1,12 @@
 # Blender 4.4.0 MTL File: 'Tablero.blend'
 # www.blender.org
 
-newmtl None.001
-Ks 0.800000 0.800000 0.800000
+newmtl ElasticWaistband_c.001
+Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
-Ni 1.500000
+Ni 1.000000
 d 1.000000
-illum 2
+illum 1
 Pr 1.000000
 Pm 0.000000
 Ps 0.000000
@@ -14,4 +14,4 @@ Pc 0.000000
 Pcr 0.030000
 aniso 0.000000
 anisor 0.000000
-map_Kd TableroDiffuse01.png
+map_Kd ElasticWaistband_c_2.png
