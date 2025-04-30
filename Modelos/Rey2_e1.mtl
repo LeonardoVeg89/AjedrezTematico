@@ -1,11 +1,25 @@
-# Blender 4.4.0 MTL File: 'Tablero.blend'
+# Blender 4.4.0 MTL File: 'Tablero2.blend'
 # www.blender.org
 
-newmtl MI_King_Neptune.001
+newmtl 24_Hair_0.2_16_16.009
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
+illum 2
+Pr 0.400000
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd CabelloInvincible.jpg
+
+newmtl Material.009
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
 illum 2
 Pr 0.500000
 Pm 0.000000
@@ -14,5 +28,20 @@ Pc 0.000000
 Pcr 0.030000
 aniso 0.000000
 anisor 0.000000
-map_Kd T_King_Neptune_D_1.png
-map_Bump -bm 1.000000 T_King_Neptune_N.png
+map_Kd CuerpoInvincible.jpg
+map_d 1 sin título_20250323160159.png
+
+newmtl Material.010
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 2
+Pr 0.500000
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd CaraInvincible.jpg
+map_d 3 sin título_20250323160508.png

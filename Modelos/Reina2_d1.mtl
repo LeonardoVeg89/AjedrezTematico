@@ -1,77 +1,17 @@
-# Blender 4.4.0 MTL File: 'Tablero.blend'
+# Blender 4.4.0 MTL File: 'Tablero2.blend'
 # www.blender.org
 
-newmtl Mindy_0.002
-Ks 0.000000 0.000000 0.000000
+newmtl atomeve_df.png
+Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
-Ni 1.450000
+Ni 1.000000
 d 1.000000
-illum 1
-Pr 0.500000
+illum 2
+Pr 0.690035
 Pm 0.000000
 Ps 0.000000
 Pc 0.000000
 Pcr 0.030000
 aniso 0.000000
 anisor 0.000000
-map_Kd Texture2.png
-
-newmtl Mindy_1.002
-Ks 0.000000 0.000000 0.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 0.612000
-illum 1
-Pr 0.500000
-Pm 0.792000
-Ps 0.000000
-Pc 0.000000
-Pcr 0.030000
-aniso 0.000000
-anisor 0.000000
-map_Kd Texture2.png
-
-newmtl Mindy_2.002
-Ks 0.000000 0.000000 0.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 1
-Pr 0.500000
-Pm 1.000000
-Ps 0.000000
-Pc 0.000000
-Pcr 0.030000
-aniso 0.000000
-anisor 0.000000
-map_Kd Texture2.png
-
-newmtl Mindy_3.002
-Ks 0.000000 0.000000 0.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 1
-Pr 0.500000
-Pm 0.524000
-Ps 0.000000
-Pc 0.000000
-Pcr 0.030000
-aniso 0.000000
-anisor 0.000000
-map_Kd Texture2.png
-
-newmtl Mindy_4.002
-Ks 0.000000 0.000000 0.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.450000
-d 1.000000
-illum 1
-Pr 0.500000
-Pm 0.288000
-Ps 0.000000
-Pc 0.000000
-Pcr 0.030000
-aniso 0.000000
-anisor 0.000000
-map_Kd Texture2.png
+map_Kd atomeve_df.png

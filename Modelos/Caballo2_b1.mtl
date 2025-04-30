@@ -1,17 +1,18 @@
-# Blender 4.4.0 MTL File: 'Tablero.blend'
+# Blender 4.4.0 MTL File: 'Tablero2.blend'
 # www.blender.org
 
-newmtl mystery.001
-Ks 0.000000 0.000000 0.000000
+newmtl mat_hero_maulertwinmelee_battle.001
+Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
-illum 1
-Pr 1.000000
+illum 2
+Pr 0.929289
 Pm 0.000000
 Ps 0.000000
 Pc 0.000000
 Pcr 0.030000
 aniso 0.000000
 anisor 0.000000
-map_Kd t0112_0_1.png
+map_Kd MaulerTexture.jpg
+map_Bump -bm 1.000000 mauler_twin_nm.png

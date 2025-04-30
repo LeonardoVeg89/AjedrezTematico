@@ -1,18 +1,47 @@
-# Blender 4.4.0 MTL File: 'Tablero.blend'
+# Blender 4.4.0 MTL File: 'Tablero2.blend'
 # www.blender.org
 
-newmtl House
+newmtl MI_SharpMagnet_FaceAcc.001
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
-Ni 1.450000
+Ni 1.500000
 d 1.000000
 illum 2
+Pr 0.400000
+Pm 0.000000
 Ps 0.000000
 Pc 0.000000
 Pcr 0.030000
 aniso 0.000000
 anisor 0.000000
-map_Kd Squidwards House_House_BaseColor_1.png
-map_Pm Squidwards House_House_Metallic.png
-map_Pr Squidwards House_House_Roughness.png
-map_Bump Squidwards House_House_Normal.png
+map_Kd CabelloOmniman.jpg
+
+newmtl MI_SharpMagnet_Head.001
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pr 0.400000
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd CaraOmniman.jpg
+
+newmtl Material.002
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pr 0.400000
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd CuerpoOmniman.jpg

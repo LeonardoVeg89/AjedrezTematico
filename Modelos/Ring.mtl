@@ -1,0 +1,86 @@
+# Blender 4.4.0 MTL File: 'Tablero2.blend'
+# www.blender.org
+
+newmtl RingCentre
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+Pr 0.900000
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+Tf 1.000000 1.000000 1.000000
+map_Kd RingCanvas_COLO.png
+map_Ks RingCanvas_SPEC.png
+
+newmtl RingRope_COLO_shader
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+Pr 0.900000
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+Tf 1.000000 1.000000 1.000000
+map_Kd RingRope_COLO.png
+map_Ks RingRope_SPEC.png
+map_Bump RingRope_NORM.png
+
+newmtl RingSides
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+Pr 0.900000
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+Tf 1.000000 1.000000 1.000000
+map_Kd Ringsides_COLO.png
+map_Ks Ringsides_SPEC.png
+map_Bump Ringsides_NORM.png
+
+newmtl RingWood
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+Pr 0.900000
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+Tf 1.000000 1.000000 1.000000
+map_Kd RingWood_COLO.png
+map_Ks RingWood_SPEC.png
+map_Bump RingWood_NORM.png
+
+newmtl floor_beech
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+Pr 0.900000
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+Tf 1.000000 1.000000 1.000000
+map_Kd floor_beech_diffuse.png
+map_Ks floor_specular.png
+map_Bump floor_normalmap.png

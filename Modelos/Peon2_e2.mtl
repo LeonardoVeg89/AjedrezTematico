@@ -1,17 +1,47 @@
-# Blender 4.4.0 MTL File: 'Tablero.blend'
+# Blender 4.4.0 MTL File: 'Tablero2.blend'
 # www.blender.org
 
-newmtl Jellyfish.002
-Ks 1.000000 1.000000 1.000000
+newmtl 24_Body_0.2_16_16.008
+Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
-Ni 1.000000
+Ni 1.500000
 d 1.000000
 illum 2
-Pr 0.806985
+Pr 0.400000
 Pm 0.000000
 Ps 0.000000
 Pc 0.000000
 Pcr 0.030000
 aniso 0.000000
 anisor 0.000000
-map_Kd Jellyfish2.png
+map_Kd Cuerpo.jpg
+
+newmtl 24_Hair_0.2_16_16.005
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pr 0.400000
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Cabello.jpg
+
+newmtl 24_Head_0.2_16_16.008
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pr 0.400000
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd Cara.jpg
