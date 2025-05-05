@@ -34,7 +34,7 @@ const GLuint WIDTH = 800, HEIGHT = 600;
 int SCREEN_WIDTH, SCREEN_HEIGHT;
 
 // Camera
-Camera  camera(glm::vec3(0.0f, 20.0f, 15.0f));
+Camera  camera(glm::vec3(0.0f, 10.0f, 15.0f));
 GLfloat lastX = WIDTH / 2.0;
 GLfloat lastY = HEIGHT / 2.0;
 bool keys[1024];
@@ -174,6 +174,18 @@ int main()
 
 	// Modelos Proyecto Laboratorio
 
+	Model Suelo((char*)"Models/Suelo.obj");
+	Model Cielo((char*)"Models/Cielo.obj");
+	Model Pared1((char*)"Models/Pared1.obj");
+	Model Pared2((char*)"Models/Pared2.obj");
+	Model Pared3((char*)"Models/Pared3.obj");
+	Model Pared4((char*)"Models/Pared4.obj");
+	Model Faro((char*)"Models/Faro.obj");
+	Model LuzFaro((char*)"Models/LuzFaro.obj");
+	Model Estatua((char*)"Models/Estatua.obj");
+	Model Coral1((char*)"Models/Coral1.obj");
+	Model Coral2((char*)"Models/Coral2.obj");
+	Model Algas((char*)"Models/Alga.obj");
 	Model Ring((char*)"Models/Ring.obj");
 	Model Tablero((char*)"Models/Tablero.obj");
 	
@@ -274,9 +286,9 @@ int main()
 
 		// Directional light
 		glUniform3f(glGetUniformLocation(lightingShader.Program, "dirLight.direction"), -0.2f, -1.0f, -0.3f);
-		glUniform3f(glGetUniformLocation(lightingShader.Program, "dirLight.ambient"), 1.0f, 1.0f,1.0f);
-		glUniform3f(glGetUniformLocation(lightingShader.Program, "dirLight.diffuse"), 0.0f, 0.0f, 0.0f);
-		glUniform3f(glGetUniformLocation(lightingShader.Program, "dirLight.specular"),0.0f, 0.0f, 0.0f);
+		glUniform3f(glGetUniformLocation(lightingShader.Program, "dirLight.ambient"), 0.5f, 0.5f, 0.5f);
+		glUniform3f(glGetUniformLocation(lightingShader.Program, "dirLight.diffuse"), 0.0f, 0.0f, 1.0f);
+		glUniform3f(glGetUniformLocation(lightingShader.Program, "dirLight.specular"),0.0f, 0.0f, 1.0f);
 
 		// Point light 1
 		glm::vec3 lightColor;
@@ -513,7 +525,66 @@ int main()
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		Ring.Draw(lightingShader);
 
-		
+		// Suelo
+		model = glm::mat4(1);
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		Suelo.Draw(lightingShader);
+
+		// Pared 1
+		model = glm::mat4(1);
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		Pared1.Draw(lightingShader);
+
+		// Pared 2
+		model = glm::mat4(1);
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		Pared2.Draw(lightingShader);
+
+		// Pared 3
+		model = glm::mat4(1);
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		Pared3.Draw(lightingShader);
+
+		// Pared 4
+		model = glm::mat4(1);
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		Pared4.Draw(lightingShader);
+
+		// Cielo
+		model = glm::mat4(1);
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		Cielo.Draw(lightingShader);
+
+		// Faro
+		model = glm::mat4(1);
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		Faro.Draw(lightingShader);
+
+		// Luz Faro
+		model = glm::mat4(1);
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		LuzFaro.Draw(lightingShader);
+
+		// Estatua
+		model = glm::mat4(1);
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		Estatua.Draw(lightingShader);
+
+		// Coral 1
+		model = glm::mat4(1);
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		Coral1.Draw(lightingShader);
+
+		// Coral 2
+		model = glm::mat4(1);
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		Coral2.Draw(lightingShader);
+
+		// Alga
+		model = glm::mat4(1);
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		Algas.Draw(lightingShader);
+
 		glDisable(GL_BLEND);  //Desactiva el canal alfa 
 		glBindVertexArray(0);
 	
